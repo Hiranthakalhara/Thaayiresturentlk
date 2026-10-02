@@ -1,0 +1,6 @@
+{
+  "name": "Thaayi Restaurant",
+  "description": "Authentic Sri Lankan Fine Dining & Artisanal Gastronomy in Colombo 07. Experience clay pot curries, rhythmic kottu, golden hoppers, and the Royal Serendib Tasting Journey.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

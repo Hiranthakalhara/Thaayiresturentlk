@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #80182A;
+  --color-primary-dark: #5C0E1C;
+  --color-secondary: #C59B27;
+  --color-secondary-dark: #9E7B1C;
+  --color-surface-dark: #141212;
+  --color-surface-charcoal: #1E1B1B;
+  --color-ivory: #FAF8F5;
+  --color-ivory-light: #FDFBF8;
+  --color-ivory-card: #FFFFFF;
+  --color-border-subtle: #EADFD5;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom pattern and fine dining textures */
+.bg-curry-texture {
+  background-image: radial-gradient(#C59B27 0.75px, transparent 0.75px), radial-gradient(#C59B27 0.75px, #141212 0.75px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Hide scrollbar for clean horizontal swipe tabs on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
